@@ -6,5 +6,5 @@ public interface PersonnageDao {
     List<Personnage> findAll();
     Personnage findById(int id);
     Personnage save(Personnage personnage);
-    void remove(int id);
+    void delete(int id);
 }

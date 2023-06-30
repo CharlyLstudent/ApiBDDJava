@@ -43,8 +43,7 @@ public class PersonnageDaoImpl implements PersonnageDao {
         return personnage;
     }
 
-    public void remove(int id){
-        this.findById(id);
-
+    public void delete(int id){
+        personnages.remove(this.findById(id));
     }
 }
